@@ -1,5 +1,5 @@
 import sqlite3
-# CLI - command line application
+# CLI - command line interface application
 def create_connection():
     try:
         con = sqlite3.connect("users.sqlite3")
